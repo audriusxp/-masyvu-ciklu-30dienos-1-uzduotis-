@@ -24,12 +24,12 @@ public class uzduotis1 {
 
     }
 
-    public static ArrayList<Double> daugiauDvylika() {
+    public static ArrayList<Double> daugiauDesimt() {
         int x = 0;
         for (int i = 0; i < nuskaitytiSarasa().size(); i++) {
-            if (x > 12) {
+            if (x > 10) {
                 System.out.println("x = " + x);
-                return daugiauDvylika();
+                return daugiauDesimt();
             }
 
 
